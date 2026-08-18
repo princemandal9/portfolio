@@ -1,0 +1,138 @@
+*{
+    background-color: #06141B;
+    font-family: Arial,'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    max-width: 1800px;
+    white-space: pre-line;
+}
+/*Header*/
+.portfolio{
+    display: flex;
+    flex-direction: row;
+}
+.head-section{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 50px;
+}
+#logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:  #9BA8AB;
+}
+#about{
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center; 
+    color: #9BA8AB;
+}
+/*Intro-page*/
+.Intro{
+    display: flex;
+    gap: 1em;
+    min-height: 80vh;
+}
+.intro-part{
+    display: flex;
+    background-color: #11212D;/* #9BA8AB;*/
+    flex: 2 1 0%;
+    margin: 50px;
+    border-radius: 16px;
+}
+#name{
+    flex-grow: 2;
+    font-weight: 900;
+    font-size: clamp(5rem,10vw,10rem);
+    color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+#photo{
+    flex-grow: 1;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    padding: 10px;
+ }
+/**education*/
+.about-container{
+    display:flex;
+    flex-direction: column;
+    margin: 50px;
+    min-height: 80vh;
+    gap : 2em;
+}
+.about-content{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    border-radius: 16px;
+}
+#about-heading{
+    background-color: #11212D;
+    color:antiquewhite;
+    font-weight:bold;
+    font-size: 5rem;
+    align-items: center;
+}
+#about-body{
+    display:flex;
+    color:#9BA8AB;
+    font-size: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+/*Image section*/
+.about-img {
+    display:flex;
+    gap:20px;
+}
+.imgs{
+    display: flex;
+    flex:1;
+    height: 300px;
+    background-color: #11212D;
+    padding: 20px;
+    margin:50px;
+    border-radius: 16px;
+}
+.imgs img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+/*footer*/
+.foot{
+    display:flex;
+    flex-direction: column;
+    min-height: 20vh;
+    max-height: 30vh ;
+}
+.foot-content{
+    display:flex;
+    flex:1;
+}
+#f1{
+    background-color: #06141B;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+#f2{
+    background-color: #11212D;
+    font-weight: bold;
+    color:#9BA8AB;
+    justify-content: center;
+    align-items: center;
+}
